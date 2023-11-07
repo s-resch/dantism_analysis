@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<dantisms>
+   <inferno number="9" numberUnique="7">
+      <dantism position="964">fiammeggiare</dantism>
+      <dantism position="1158">bronco</dantism>
+      <dantism position="1561">greppo</dantism>
+      <dantism position="1662">scheggia</dantism>
+      <dantism position="2115">cigolare</dantism>
+      <dantism position="2154">guazzo</dantism>
+      <dantism position="6102">quatto</dantism>
+      <dantism position="6103">quatto</dantism>
+      <dantism position="6521">greppo</dantism>
+   </inferno>
+   <purgatorio number="1" numberUnique="1">
+      <dantism position="3474">vibrare</dantism>
+   </purgatorio>
+   <paradiso number="2" numberUnique="2">
+      <dantism position="2853">effigie</dantism>
+      <dantism position="2882">differire</dantism>
+   </paradiso>
+</dantisms>

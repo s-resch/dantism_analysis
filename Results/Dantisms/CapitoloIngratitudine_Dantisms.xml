@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<dantisms>
+   <inferno number="0" numberUnique="0"/>
+   <purgatorio number="1" numberUnique="1">
+      <dantism position="1085">mite</dantism>
+   </purgatorio>
+   <paradiso number="0" numberUnique="0"/>
+</dantisms>

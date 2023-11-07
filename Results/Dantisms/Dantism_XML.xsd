@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="dantisms">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="inferno"/>
+        <xs:element ref="purgatorio"/>
+        <xs:element ref="paradiso"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="inferno">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="dantism" maxOccurs="unbounded"/>
+      </xs:sequence>
+      <xs:attribute name="number" type="xs:string" use="required"/>
+      <xs:attribute name="numberUnique" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="dantism">
+    <xs:complexType mixed="true">
+      <xs:attribute name="position" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="purgatorio">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="dantism"/>
+      </xs:sequence>
+      <xs:attribute name="number" type="xs:string" use="required"/>
+      <xs:attribute name="numberUnique" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="paradiso">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="dantism" maxOccurs="unbounded"/>
+      </xs:sequence>
+      <xs:attribute name="number" type="xs:string" use="required"/>
+      <xs:attribute name="numberUnique" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

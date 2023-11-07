@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<dantisms>
+   <inferno number="5" numberUnique="5">
+      <dantism position="1254">chiercuto</dantism>
+      <dantism position="1447">cigolare</dantism>
+      <dantism position="2658">geometra</dantism>
+      <dantism position="2796">cozzo</dantism>
+      <dantism position="3563">ribellante</dantism>
+   </inferno>
+   <purgatorio number="0" numberUnique="0"/>
+   <paradiso number="1" numberUnique="1">
+      <dantism position="1082">disunire</dantism>
+   </paradiso>
+</dantisms>
